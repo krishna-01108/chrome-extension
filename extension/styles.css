@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  padding: 15px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  background: white;
+  color: #764ba2;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #f1f1f1;
+}
+
+.summary-box {
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+
+textarea {
+  width: 100%;
+  height: 140px;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+#loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+  animation: spin 1s linear infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}

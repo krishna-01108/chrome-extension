@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Webpage Summarizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>✨ AI Webpage Summarizer</h2>
+
+    <button id="summarizeBtn">Summarize Selected Text</button>
+
+    <div id="loader" class="hidden"></div>
+
+    <div class="summary-box">
+      <textarea id="summaryText" placeholder="Your summary will appear here..."></textarea>
+      <div class="controls">
+        <span id="charCount">0 chars</span>
+        <div>
+          <button id="copyBtn">Copy</button>
+          <button id="clearBtn">Clear</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
