@@ -10,14 +10,14 @@ A Chrome Extension that summarizes selected text from any webpage using the Hugg
 * Uses latest Hugging Face router API endpoint  
 
 ## ⚙️ Backend Setup (Node.js + Express)
-### 1️⃣ Initialize Project   
+###  Initialize Project   
 Inside your backend folder:   
 <div style="position: relative;">
   <button style="position: absolute; top: 5px; right: 5px; padding: 3px 8px; font-size: 12px; background: #f6f8fa; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; z-index: 1;" onclick="navigator.clipboard.writeText(document.getElementById('my-code').textContent).then(() => { this.textContent = 'Copied!'; setTimeout(() => { this.textContent = 'Copy'; }, 2000); })">
   </button>
   <pre><code id="my-code">   npm init -y  </code></pre>
-</div>      
-###  Install Dependencies   
+</div>         
+Install Dependencies  
 <div style="position: relative;">
   <button style="position: absolute; top: 5px; right: 5px; padding: 3px 8px; font-size: 12px; background: #f6f8fa; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; z-index: 1;" onclick="navigator.clipboard.writeText(document.getElementById('my-code').textContent).then(() => { this.textContent = 'Copied!'; setTimeout(() => { this.textContent = 'Copy'; }, 2000); })">
   </button>
@@ -82,6 +82,7 @@ Select your extension folder.
 
 ## 📄 License  
 This project is for educational and learning purposes.  
+
 
 
 
