@@ -2,7 +2,7 @@
 A Chrome Extension that summarizes selected text from any webpage using the Hugging Face Inference API and a Node.js backend.  
 
 # 🚀 Features
-* Summarizes only selected text (not full page  
+* Summarizes only selected text (not full page)  
 * Clean and interactive popup UI  
 * Copy summary to clipboard  
 * Error handling for empty selection   
@@ -12,8 +12,12 @@ A Chrome Extension that summarizes selected text from any webpage using the Hugg
 ## ⚙️ Backend Setup (Node.js + Express)
 ### 1️⃣ Initialize Project   
 Inside your backend folder:   
-   npm init -y  
-   
+<div style="position: relative;">
+  <button style="position: absolute; top: 5px; right: 5px; padding: 3px 8px; font-size: 12px; background: #f6f8fa; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; z-index: 1;" onclick="navigator.clipboard.writeText(document.getElementById('my-code').textContent).then(() => { this.textContent = 'Copied!'; setTimeout(() => { this.textContent = 'Copy'; }, 2000); })">
+    Copy
+  </button>
+  <pre><code id="my-code">   npm init -y  </code></pre>
+</div>      
 ### 2️⃣ Install Dependencies   
 npm install express node-fetch cors  
 
@@ -71,4 +75,5 @@ Select your extension folder.
 
 ## 📄 License  
 This project is for educational and learning purposes.  
+
 
